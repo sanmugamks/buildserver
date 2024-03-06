@@ -1,0 +1,15 @@
+{
+  "name": "buildserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "bullmq": "^5.4.2",
+    "express": "^4.18.3"
+  }
+}

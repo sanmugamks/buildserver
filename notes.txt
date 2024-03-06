@@ -1,0 +1,15 @@
+PM2
+---
+
+pm2 start gatsby develop --name "site-name"
+pm2 serve public --name "gatsby-site"
+pm2 start gatsby build && pm2 serve public --name "gatsby-site"
+
+
+Queue
+-----
+
+yarn add bullmq
+
+npm install redis
+
