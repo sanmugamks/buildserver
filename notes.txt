@@ -13,3 +13,5 @@ yarn add bullmq
 
 npm install redis
 
+sudo apt install redis-server
+
